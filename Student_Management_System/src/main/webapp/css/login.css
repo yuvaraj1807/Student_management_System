@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#74ebd5,#9face6);
+}
+
+.container,
+.form-container{
+    width:400px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1,h2{
+    color:#2c3e50;
+    margin-bottom:20px;
+}
+
+p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.login-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.admin-btn{
+    background:#3498db;
+}
+
+.admin-btn:hover{
+    background:#2980b9;
+    transform:translateY(-3px);
+}
+
+.student-btn{
+    background:#27ae60;
+}
+
+.student-btn:hover{
+    background:#219150;
+    transform:translateY(-3px);
+}
+
+input[type=text],
+input[type=password],
+input[type=number]{
+    width:100%;
+    padding:12px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+input[type=submit]{
+    width:100%;
+    padding:12px;
+    background:#3498db;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+input[type=submit]:hover{
+    background:#2980b9;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    background:#7f8c8d;
+    color:white;
+    padding:10px 15px;
+    border-radius:8px;
+}
+
+.back-btn:hover{
+    background:#616a6b;
+}
